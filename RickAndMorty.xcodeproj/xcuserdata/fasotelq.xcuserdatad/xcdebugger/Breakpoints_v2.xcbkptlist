@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "256FCE79-491A-4F47-8E5B-ACA7135BCBB1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DB903DE-BD8D-48E8-B734-D6B4EC9B4965"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/ViewModel/RMCharacterVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "loadView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3DB903DE-BD8D-48E8-B734-D6B4EC9B4965 - f75e2ef066708310"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.RMCharacterVM.loadView() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fasotelq/Desktop/IOSCourse/RickAndMorty/RickAndMorty/ViewModel/RMCharacterVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "3DB903DE-BD8D-48E8-B734-D6B4EC9B4965 - 6de2ea5fe75a8bfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RickAndMorty.ListOfCharacters, RickAndMorty.RMErrors&gt;) -&gt; () in RickAndMorty.RMCharacterVM.loadView() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fasotelq/Desktop/IOSCourse/RickAndMorty/RickAndMorty/ViewModel/RMCharacterVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "206">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D99E801-5830-440D-BFAC-9B41C52714FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/Views/RMCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "configCollectionView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB8847E0-939A-4D6E-BE56-C6D690C8D8EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/Views/RMCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "configDataSource()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB8847E0-939A-4D6E-BE56-C6D690C8D8EA - 6a35761a4cccb8a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.RMCharactersVC.configDataSource() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fasotelq/Desktop/IOSCourse/RickAndMorty/RickAndMorty/Views/RMCharactersVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "EB8847E0-939A-4D6E-BE56-C6D690C8D8EA - a1dc0a396c40758d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UICollectionView, Foundation.IndexPath, RickAndMorty.Character) -&gt; Swift.Optional&lt;__C.UICollectionViewCell&gt; in RickAndMorty.RMCharactersVC.configDataSource() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fasotelq/Desktop/IOSCourse/RickAndMorty/RickAndMorty/Views/RMCharactersVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "133">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBF85523-F026-404E-BBC9-7E37F8491524"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/Network/RMNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "downloadImage(from:completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BBF85523-F026-404E-BBC9-7E37F8491524 - ffce6928350276c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.NetworkManager.downloadImage(from: Swift.String, completed: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fasotelq/Desktop/IOSCourse/RickAndMorty/RickAndMorty/Network/RMNetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "782">
+               </Location>
+               <Location
+                  uuid = "BBF85523-F026-404E-BBC9-7E37F8491524 - 468281d99131f2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in RickAndMorty.NetworkManager.downloadImage(from: Swift.String, completed: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fasotelq/Desktop/IOSCourse/RickAndMorty/RickAndMorty/Network/RMNetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "427">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6A5A17E-E8B0-481D-91D2-95898B6B67BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty/Network/RMNetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "downloadImage(from:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313DDA59261B5CDC00CFC876 /* CharCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DDA58261B5CDC00CFC876 /* CharCell.swift */; };
+		313DDA5D261B8CF000CFC876 /* UIView+Stack+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DDA5C261B8CF000CFC876 /* UIView+Stack+Ext.swift */; };
+		313DDA61261BADCA00CFC876 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DDA60261BADCA00CFC876 /* UIHelper.swift */; };
+		313DDA65261BE90D00CFC876 /* RMLoadingDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313DDA64261BE90D00CFC876 /* RMLoadingDataVC.swift */; };
+		3144D35E26136E8E00428CEA /* RMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3144D35D26136E8E00428CEA /* RMNetworkManager.swift */; };
+		3144D3622613718800428CEA /* RMCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3144D3612613718800428CEA /* RMCharacter.swift */; };
+		3144D365261381B400428CEA /* RMListOfCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3144D364261381B400428CEA /* RMListOfCharacters.swift */; };
+		3144D3682613923800428CEA /* RMErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3144D3672613923800428CEA /* RMErrors.swift */; };
 		319D134F26120A4100981046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D134E26120A4100981046 /* AppDelegate.swift */; };
 		319D135126120A4100981046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D135026120A4100981046 /* SceneDelegate.swift */; };
-		319D135326120A4100981046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D135226120A4100981046 /* ViewController.swift */; };
-		319D135626120A4100981046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319D135426120A4100981046 /* Main.storyboard */; };
 		319D135826120A4200981046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319D135726120A4200981046 /* Assets.xcassets */; };
 		319D135B26120A4200981046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319D135926120A4200981046 /* LaunchScreen.storyboard */; };
+		319D136D261215AD00981046 /* RMTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D136C261215AD00981046 /* RMTabController.swift */; };
+		319D13722612279D00981046 /* RMCharactersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D13712612279D00981046 /* RMCharactersVC.swift */; };
+		319D1376261227DF00981046 /* RMLocationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D1375261227DF00981046 /* RMLocationsVC.swift */; };
+		319D137A26122F1A00981046 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D137926122F1A00981046 /* Constants.swift */; };
+		31E2C46326178C8500126D4A /* RMAvatarIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2C46226178C8500126D4A /* RMAvatarIV.swift */; };
+		31E2C467261799CB00126D4A /* RMTittleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2C466261799CB00126D4A /* RMTittleLabel.swift */; };
+		31E2C46A26179A7F00126D4A /* RMBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2C46926179A7F00126D4A /* RMBodyLabel.swift */; };
+		31E2C46D26179F7100126D4A /* RMSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2C46C26179F7100126D4A /* RMSecondaryLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		313DDA58261B5CDC00CFC876 /* CharCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCell.swift; sourceTree = "<group>"; };
+		313DDA5C261B8CF000CFC876 /* UIView+Stack+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Stack+Ext.swift"; sourceTree = "<group>"; };
+		313DDA60261BADCA00CFC876 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		313DDA64261BE90D00CFC876 /* RMLoadingDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoadingDataVC.swift; sourceTree = "<group>"; };
+		3144D35D26136E8E00428CEA /* RMNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMNetworkManager.swift; sourceTree = "<group>"; };
+		3144D3612613718800428CEA /* RMCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacter.swift; sourceTree = "<group>"; };
+		3144D364261381B400428CEA /* RMListOfCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMListOfCharacters.swift; sourceTree = "<group>"; };
+		3144D3672613923800428CEA /* RMErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMErrors.swift; sourceTree = "<group>"; };
 		319D134B26120A4100981046 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319D134E26120A4100981046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319D135026120A4100981046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		319D135226120A4100981046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		319D135526120A4100981046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		319D135726120A4200981046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319D135A26120A4200981046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		319D135C26120A4200981046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319D136C261215AD00981046 /* RMTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabController.swift; sourceTree = "<group>"; };
+		319D13712612279D00981046 /* RMCharactersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharactersVC.swift; sourceTree = "<group>"; };
+		319D1375261227DF00981046 /* RMLocationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationsVC.swift; sourceTree = "<group>"; };
+		319D137926122F1A00981046 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31E2C46226178C8500126D4A /* RMAvatarIV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMAvatarIV.swift; sourceTree = "<group>"; };
+		31E2C466261799CB00126D4A /* RMTittleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTittleLabel.swift; sourceTree = "<group>"; };
+		31E2C46926179A7F00126D4A /* RMBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBodyLabel.swift; sourceTree = "<group>"; };
+		31E2C46C26179F7100126D4A /* RMSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSecondaryLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313DDA57261B5A4400CFC876 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				313DDA58261B5CDC00CFC876 /* CharCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		313DDA5B261B8CCD00CFC876 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				313DDA5C261B8CF000CFC876 /* UIView+Stack+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		313DDA63261BE8E200CFC876 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				313DDA64261BE90D00CFC876 /* RMLoadingDataVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3144D35B26136D8F00428CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3144D3612613718800428CEA /* RMCharacter.swift */,
+				3144D364261381B400428CEA /* RMListOfCharacters.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		319D134226120A4100981046 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +117,92 @@
 		319D134D26120A4100981046 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				319D134E26120A4100981046 /* AppDelegate.swift */,
-				319D135026120A4100981046 /* SceneDelegate.swift */,
-				319D135226120A4100981046 /* ViewController.swift */,
-				319D135426120A4100981046 /* Main.storyboard */,
-				319D135726120A4200981046 /* Assets.xcassets */,
-				319D135926120A4200981046 /* LaunchScreen.storyboard */,
+				313DDA5B261B8CCD00CFC876 /* Extension */,
+				3144D35B26136D8F00428CEA /* Model */,
+				319D137C2612533200981046 /* Network */,
+				319D137826122F0900981046 /* Helpers */,
+				319D13702612277900981046 /* Views */,
+				319D136F2612253200981046 /* CustomViews */,
+				319D13652612146F00981046 /* Support */,
 				319D135C26120A4200981046 /* Info.plist */,
 			);
 			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		319D13652612146F00981046 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				319D134E26120A4100981046 /* AppDelegate.swift */,
+				319D135026120A4100981046 /* SceneDelegate.swift */,
+				319D135726120A4200981046 /* Assets.xcassets */,
+				319D135926120A4200981046 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		319D136F2612253200981046 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				313DDA63261BE8E200CFC876 /* ViewControllers */,
+				313DDA57261B5A4400CFC876 /* Cells */,
+				31E2C465261799A500126D4A /* Labels */,
+				31E2C46126178C5700126D4A /* Images */,
+				31E2C46026178BDC00126D4A /* TabController */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		319D13702612277900981046 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				319D13712612279D00981046 /* RMCharactersVC.swift */,
+				319D1375261227DF00981046 /* RMLocationsVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		319D137826122F0900981046 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				319D137926122F1A00981046 /* Constants.swift */,
+				3144D3672613923800428CEA /* RMErrors.swift */,
+				313DDA60261BADCA00CFC876 /* UIHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		319D137C2612533200981046 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3144D35D26136E8E00428CEA /* RMNetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		31E2C46026178BDC00126D4A /* TabController */ = {
+			isa = PBXGroup;
+			children = (
+				319D136C261215AD00981046 /* RMTabController.swift */,
+			);
+			path = TabController;
+			sourceTree = "<group>";
+		};
+		31E2C46126178C5700126D4A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				31E2C46226178C8500126D4A /* RMAvatarIV.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		31E2C465261799A500126D4A /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				31E2C466261799CB00126D4A /* RMTittleLabel.swift */,
+				31E2C46926179A7F00126D4A /* RMBodyLabel.swift */,
+				31E2C46C26179F7100126D4A /* RMSecondaryLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +264,6 @@
 			files = (
 				319D135B26120A4200981046 /* LaunchScreen.storyboard in Resources */,
 				319D135826120A4200981046 /* Assets.xcassets in Resources */,
-				319D135626120A4100981046 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +274,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319D135326120A4100981046 /* ViewController.swift in Sources */,
+				313DDA5D261B8CF000CFC876 /* UIView+Stack+Ext.swift in Sources */,
+				3144D3622613718800428CEA /* RMCharacter.swift in Sources */,
+				3144D365261381B400428CEA /* RMListOfCharacters.swift in Sources */,
 				319D134F26120A4100981046 /* AppDelegate.swift in Sources */,
+				31E2C467261799CB00126D4A /* RMTittleLabel.swift in Sources */,
+				31E2C46D26179F7100126D4A /* RMSecondaryLabel.swift in Sources */,
+				319D1376261227DF00981046 /* RMLocationsVC.swift in Sources */,
 				319D135126120A4100981046 /* SceneDelegate.swift in Sources */,
+				313DDA65261BE90D00CFC876 /* RMLoadingDataVC.swift in Sources */,
+				3144D35E26136E8E00428CEA /* RMNetworkManager.swift in Sources */,
+				319D136D261215AD00981046 /* RMTabController.swift in Sources */,
+				3144D3682613923800428CEA /* RMErrors.swift in Sources */,
+				31E2C46A26179A7F00126D4A /* RMBodyLabel.swift in Sources */,
+				313DDA61261BADCA00CFC876 /* UIHelper.swift in Sources */,
+				31E2C46326178C8500126D4A /* RMAvatarIV.swift in Sources */,
+				319D13722612279D00981046 /* RMCharactersVC.swift in Sources */,
+				319D137A26122F1A00981046 /* Constants.swift in Sources */,
+				313DDA59261B5CDC00CFC876 /* CharCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		319D135426120A4100981046 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				319D135526120A4100981046 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		319D135926120A4200981046 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.felixsotelo.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.felixsotelo.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
