@@ -23,4 +23,5 @@ struct UIHelper {
         flowLayaout.itemSize       = CGSize(width: itemWidth, height: itemWidth + 70)
         return flowLayaout
     }
+    
 }

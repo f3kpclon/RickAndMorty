@@ -12,9 +12,9 @@ class NetworkManager {
     let cache = NSCache<NSString,UIImage>()
     private init(){}
     
-    func getAllCharacters(completed: @escaping (Result<[Character], RMErrors>) -> Void) {
+    func getAllCharacters(page: Int, completed: @escaping (Result<[Character], RMErrors>) -> Void) {
         
-        let url = Constants.RMUrl.apiUrl + "/character"
+        let url = Constants.RMUrl.apiUrl + "/character?page=\(page)"
         
         guard let apiUrl = URL(string: url) else {
             completed(.failure(.unableToComplete))
@@ -76,6 +76,7 @@ class NetworkManager {
             }
             
             self.cache.setObject(image, forKey: cacheKey)
+            completed(image)
         }
         task.resume()
     }
